@@ -1,0 +1,12 @@
+.demo{
+    background-color: blueviolet;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+#country-list{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    margin: 10px;
+}
