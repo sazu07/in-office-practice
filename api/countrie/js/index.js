@@ -39,6 +39,6 @@ const showDetails=data=>{
    <h2>country:${data.name.common}</h2>
    <p>population${data.population}</p>
    
-   <img width="110px" height="110px"src="${data.coatOfArms.png}">
+   <img width="110px" height="110px"src="${data.flag}">
    `
 }
