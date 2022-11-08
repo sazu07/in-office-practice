@@ -37,7 +37,7 @@ const getCart=()=>{
     const cart=localStorage.getItem('cart');
     let cartObject;
     if (cart) {
-        cartObject=JSON.stringify(cart);
+        cartObject=JSON.parse(cart);
 
     }else{
         cartObject={}
